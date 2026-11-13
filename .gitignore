@@ -1,0 +1,8 @@
+.env
+*.pem
+*.cer
+*.log
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
