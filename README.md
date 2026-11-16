@@ -21,7 +21,6 @@ operator --> CLI (argparse) --> guardrails --> LDAPS (636, cert validated) --> D
 - **Encrypted transport:** LDAPS with full certificate validation.
 - **Secrets:** credentials come from environment variables / `.env`, never code.
 - **Audit log:** who, what, which account, when, outcome, and reason. Passwords are never logged.
-- **Temporary passwords:** generated with `secrets`; the user is forced to change it at next logon.
 
 ## Usage
 
